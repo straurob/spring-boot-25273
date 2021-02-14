@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:tc:mariadb:10.4.16:///my_db
+    driver-class-name: org.mariadb.jdbc.Driver  # this does not work
+#    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver # this works
